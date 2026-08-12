@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumkum | Software Development Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">K.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="subtitle">Hello, I'm</p>
+            <h1>Kumkum</h1>
+            <h2 class="role">Computer Science Student & SDE Aspirant</h2>
+            <p class="description">
+                Enthusiastic and analytically-driven CS student passionate about full-stack web development, 
+                data structures, and building responsive web applications.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary-btn">View Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/kumkum30122005-dot" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/kumkum-413501381" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:kumkum30122005@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-card">
+            <p>
+                I am currently pursuing my <strong>B.Tech in Computer Science & Engineering</strong> at 
+                <strong>PW Institute of Innovation</strong>, New Delhi. I hold a strong foundation in software 
+                engineering principles, object-oriented design, and database management. 
+            </p>
+            <div class="education-info">
+                <h3>Education</h3>
+                <div class="edu-item">
+                    <h4>B.Tech in Computer Science & Engineering</h4>
+                    <p class="institution">PW Institute of Innovation • New Delhi, India</p>
+                    <p class="date">2025 - Expected 2029</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="tags">
+                    <span>C</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>
+                    <span>HTML/CSS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Frameworks & Tools</h3>
+                <div class="tags">
+                    <span>Bootstrap</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>IntelliJ IDEA</span>
+                    <span>MySQL Workbench</span>
+                    <span>Netlify</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Core Competencies</h3>
+                <div class="tags">
+                    <span>Data Structures & Algorithms</span>
+                    <span>OOP</span>
+                    <span>DBMS</span>
+                    <span>Problem Solving</span>
+                    <span>Debugging</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="far fa-folder-open folder-icon"></i>
+                    <div class="project-links">
+                        <a href="https://exploregithubprofile.netlify.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <h3>GitHub Profile Finder</h3>
+                <p>
+                    A responsive web application leveraging the GitHub API to dynamically fetch and display real-time 
+                    user profiles, repository metrics, and follower details with smooth asynchronous processes.
+                </p>
+                <div class="project-tech">
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                    <span>Bootstrap</span>
+                    <span>GitHub API</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="far fa-folder-open folder-icon"></i>
+                </div>
+                <h3>Grocery Management System</h3>
+                <p>
+                    A desktop database application designed to automate inventory tracking, product categorization, 
+                    and sales logging using relational schema constraints and object-oriented principles.
+                </p>
+                <div class="project-tech">
+                    <span>Java</span>
+                    <span>SQL</span>
+                    <span>MySQL Workbench</span>
+                    <span>OOP</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <p>I am actively seeking SDE and Web Development internships. Feel free to reach out!</p>
+            <form id="contact-form" class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+            <div class="contact-details">
+                <p><i class="fas fa-location-dot"></i> New Delhi, India</p>
+                <p><i class="fas fa-envelope"></i> kumkum30122005@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Designed & Built by Kumkum</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
